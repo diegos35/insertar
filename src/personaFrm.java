@@ -179,6 +179,7 @@ public class personaFrm extends javax.swing.JFrame {
     private void enviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enviarActionPerformed
         // TODO add your handling code here:
       Persona per = new Persona();
+      
         per.insertarPersona(Integer.parseInt(txtide.getText()), txtnom.getText(), txtape.getText(), Integer.parseInt(txttel.getText()), txtdir.getText(), txtcor.getText());
         
         
